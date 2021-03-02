@@ -30,8 +30,7 @@ for i in range(N):
         diagonal2 = np.dot(A[j, j+1:], x[j+1:])
 
         x_n[j] = (b[j] - diagonal1 - diagonal2) / A[j, j]
-
-    # guardamos 
+        
     x = x_n
 
 print("Respuesta: " + str(x))
