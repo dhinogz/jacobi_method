@@ -1,9 +1,12 @@
 Jacobi method using Python.
 
 From [Wikipedia](https://en.wikipedia.org/wiki/Jacobi_method):
+    
     In numerical linear algebra, the Jacobi method is an iterative algorithm for determining the solutions of a strictly diagonally dominant system of linear equations. Each diagonal element is solved for, and an approximate value is plugged in. The process is then iterated until it converges.
 
 [Pseudocode](https://en.wikipedia.org/wiki/Jacobi_method#Algorithm):
+
+```
     k=0
     while convergence not reached do
         for i := 1 step until n do
@@ -17,3 +20,4 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Jacobi_method):
         end
         {\displaystyle k=k+1}k=k+1
     end
+```
