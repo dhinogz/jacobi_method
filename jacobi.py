@@ -10,7 +10,7 @@ A = np.array([[5., -2., 3.,], [-3., 9., 1.], [2., -1., -7.]])
 x = np.array([0., 0., 0.])
 #             x1  x2  x3
 
-# Vector b ()
+# Vector b
 b = np.array([-1., 2., 3.])
 
 # numero de iteraciones
