@@ -33,4 +33,4 @@ for i in range(N):
         
     x = x_n
 
-print("Respuesta: " + str(x))
+print(f"Respuesta: {x}")
